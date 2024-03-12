@@ -1,0 +1,38 @@
+.main {
+  padding-top: 16px;
+  @media only screen and (max-width: 700px) {
+    flex-direction: row;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+.section-title {
+  text-align: left;
+  color: $primary-color;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-image-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 64px;
+  margin: 0 24px 0 24px;
+  img {
+    max-height: 250px;
+    width: auto;
+
+    max-width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+  }
+}
+
+.main-card {
+  background: #ffffff;
+  z-index: 3;
+}

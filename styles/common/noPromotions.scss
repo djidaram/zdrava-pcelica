@@ -1,0 +1,55 @@
+@import "./color.scss";
+
+.no-promotions-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  @media only screen and (max-width: 960px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.no-promotions-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.no-promotions-text-box {
+  display: flex;
+  justify-content: flex-end;
+
+  h1 {
+    color: $primary-color;
+    font-weight: 700;
+    margin-bottom: 0;
+    width: 85%;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 960px) {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    padding-bottom: 10%;
+
+    h1 {
+      width: 90%;
+    }
+  }
+}
+
+.no-promotions-image {
+  max-height: 290px;
+  width: auto;
+  margin: 0 32px 0 64px;
+
+  @media only screen and (max-width: 960px) {
+    height: auto;
+    margin: 0 15% 0 14%;
+  }
+}

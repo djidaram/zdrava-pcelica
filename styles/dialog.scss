@@ -1,0 +1,28 @@
+.dialog {
+  display: flex;
+  flex-direction: row;
+  .button-close {
+    margin-bottom: auto;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 400px;
+
+    @media only screen and (max-width: 600px) {
+      max-width: 300px;
+    }
+
+    @media only screen and (max-width: 460px) {
+      max-width: 200px;
+    }
+
+    @media only screen and (max-width: 380px) {
+      max-width: 170px;
+    }
+  }
+}

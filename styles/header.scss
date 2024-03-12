@@ -1,0 +1,40 @@
+@import "color.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 1rem;
+  color: map-get($orange, 900);
+  width: 100%;
+
+  h2 {
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  color: inherit;
+
+  h2 {
+    padding-left: 20px;
+  }
+
+  img {
+    height: 48px;
+    padding-top: 10px;
+  }
+
+  @media only screen and (max-width: 380px) {
+    #titleContent {
+      width: 55%;
+    }
+  }
+}

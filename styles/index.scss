@@ -1,0 +1,31 @@
+@import "./contact.scss";
+@import "./footer.scss";
+@import "./header.scss";
+@import "./main.scss";
+@import "./prallax.scss";
+@import "./common/map.scss";
+@import "./common/noPromotions.scss";
+@import "./common/card.scss";
+@import "./dialog.scss";
+
+html {
+  font-size: 24px;
+
+  @media only screen and (max-width: 960px) {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 1.33rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+#__next {
+  display: flex;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

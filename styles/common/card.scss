@@ -1,0 +1,20 @@
+.card-action-area {
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.8rem;
+  text-align: center !important;
+
+  height: auto;
+}
+
+.card-content {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  font-size: 1rem;
+  text-align: center !important;
+  font-weight: bold;
+  color: map-get($warm-grey, 400);
+}

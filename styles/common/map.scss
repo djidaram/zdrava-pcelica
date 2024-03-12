@@ -1,0 +1,11 @@
+.map {
+    height: 300px;
+    width: 400px;
+
+    @media only screen and (max-width: 600px) {
+        width: 330px;
+
+        margin-left: 2.78%;
+        margin-right: 2.78%;
+    }
+}

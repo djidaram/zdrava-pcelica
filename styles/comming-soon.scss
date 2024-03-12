@@ -1,0 +1,92 @@
+@import './common/map.scss';
+@import './footer.scss';
+
+
+html {
+    font-size: 24px;
+
+    @media only screen and (max-width: 960px) {
+        font-size: 18px;
+    }
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.33rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#__next {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 960px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    color: #707070;
+
+    @media only screen and (max-width: 960px) {
+        width: 100%;
+    }
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+    color: #707070;
+}
+
+.green-text {
+    color: #009C88;
+}
+
+.social-network-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    max-width: 52px;
+    height: auto;
+
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+.social-network-logo {
+    color: white;
+}
+
+.main-logo {
+    max-width: 512px;
+    max-height: 512px;
+
+    @media only screen and (max-width: 768px) {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.map {
+    margin-top: 30px;
+}
